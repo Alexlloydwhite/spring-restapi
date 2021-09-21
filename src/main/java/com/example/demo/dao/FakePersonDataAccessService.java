@@ -20,7 +20,7 @@ public class FakePersonDataAccessService implements PersonDAO {
 
     @Override
     public List<Person> selectAllPeople() {
-        return null;
+        return DB;
     }
 
 }
